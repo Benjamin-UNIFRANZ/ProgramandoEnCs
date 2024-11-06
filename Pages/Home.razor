@@ -1,0 +1,81 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<p>Welcome to your new app!</p>
+
+<button @onclick="MostrarVectores">Mostrar Vectores</button>
+
+@if (resultado != null)
+{
+    <h3>Resultados:</h3>
+    <pre>@resultado</pre>
+}
+
+@code {
+    private string resultado;
+
+    private void MostrarVectores()
+    {
+        // 1. Vector Nulo
+        Vector nulo = new Vector(0, 0);
+        string output = $"Vector Nulo: {nulo}\n";
+
+        // 2. Vector Unitario
+        Vector unitario = new Vector(1, 0); // Vector en la dirección del eje X
+        output += $"Vector Unitario: {unitario}\n";
+
+        // 3. Vectores Libres
+        Vector libreA = new Vector(3, 4);
+        Vector libreB = new Vector(1, 2);
+        output += $"Vector Libre A: {libreA}\n";
+        output += $"Vector Libre B: {libreB}\n";
+
+        // 4. Vectores Fijos
+        Vector fijo = new Vector(5, 5); // Punto de aplicación (5,5)
+        output += $"Vector Fijo: {fijo}\n";
+
+        // 5. Vectores Opuestos
+        Vector opuesto = new Vector(-libreA.X, -libreA.Y);
+        output += $"Vector Opuesto de A: {opuesto}\n";
+
+        // 6. Vectores Paralelos
+        Vector paralelo = new Vector(6, 8); // Mismo sentido que A (multiplicado por 2)
+        output += $"Vector Paralelo a A: {paralelo}\n";
+
+        // 7. Vectores Ortogonales
+        Vector ortogonal = new Vector(-libreA.Y, libreA.X); // Rotación de 90 grados
+        output += $"Vector Ortogonal a A: {ortogonal}\n";
+
+        // Ejemplo de suma de vectores
+        Vector suma = libreA + libreB;
+        output += $"Suma de A y B: {suma}";
+
+        resultado = output;
+    }
+
+    public class Vector
+    {
+        public double X { get; set; }
+        public double Y { get; set; }
+
+        public Vector(double x, double y)
+        {
+            X = x;
+            Y = y;
+        }
+
+        public override string ToString()
+        {
+            return $"({X}, {Y})";
+        }
+
+        // Sobrecarga del operador '+' para sumar vectores
+        public static Vector operator +(Vector a, Vector b)
+        {
+            return new Vector(a.X + b.X, a.Y + b.Y);
+        }
+    }
+}
