@@ -1,0 +1,11 @@
+{
+  "name": "primerproyect",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "dotnet publish -c Release -o publish",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/static-build": "^0.1.0"
+  }
+}

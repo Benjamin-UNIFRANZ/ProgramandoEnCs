@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "PrimerProyect.csproj",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "publish/wwwroot"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
