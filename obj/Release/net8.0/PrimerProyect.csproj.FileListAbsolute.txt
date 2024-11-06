@@ -1039,3 +1039,6 @@
 /Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/package.json
 /Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/sanity.json
 /Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/tsconfig.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/package-lock.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/package.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/vercel.json

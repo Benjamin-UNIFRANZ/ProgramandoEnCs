@@ -1,0 +1,12 @@
+/Users/benji/Documents/C#/PrimerProyect/publish/global.json
+/Users/benji/Documents/C#/PrimerProyect/publish/package-lock.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/config/@sanity/data-aspects.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/config/@sanity/default-layout.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/config/@sanity/default-login.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/config/@sanity/form-builder.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/package-lock.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/package.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/sanity.json
+/Users/benji/Documents/C#/PrimerProyect/publish/sanity/tsconfig.json
+/Users/benji/Documents/C#/PrimerProyect/publish/vercel.json
+/Users/benji/Documents/C#/PrimerProyect/publish/web.config
