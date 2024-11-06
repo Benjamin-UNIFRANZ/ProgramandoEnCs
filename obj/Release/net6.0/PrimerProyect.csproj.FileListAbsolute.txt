@@ -1,0 +1,6 @@
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.AssemblyInfoInputs.cache
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.AssemblyInfo.cs
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.csproj.CoreCompileInputs.cache
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.MvcApplicationPartsAssemblyInfo.cache
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net6.0/PrimerProyect.sourcelink.json

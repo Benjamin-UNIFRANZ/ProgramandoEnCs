@@ -1029,3 +1029,13 @@
 /Users/benji/Documents/C#/PrimerProyect/obj/Release/net8.0/refint/PrimerProyect.dll
 /Users/benji/Documents/C#/PrimerProyect/obj/Release/net8.0/PrimerProyect.pdb
 /Users/benji/Documents/C#/PrimerProyect/obj/Release/net8.0/ref/PrimerProyect.dll
+/Users/benji/Documents/C#/PrimerProyect/obj/Release/net8.0/PrimerProyect.sourcelink.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/global.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/config/@sanity/data-aspects.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/config/@sanity/default-layout.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/config/@sanity/default-login.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/config/@sanity/form-builder.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/package-lock.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/package.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/sanity.json
+/Users/benji/Documents/C#/PrimerProyect/bin/Release/net8.0/sanity/tsconfig.json
